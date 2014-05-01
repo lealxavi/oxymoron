@@ -59,9 +59,15 @@
 
 
 /* Main Sections */
-.nav_bar {margin-bottom: 25px; margin-top: 25px; text-align: center; }
+.nav_bar {margin: 25px auto 25px; text-align: center; }
 .nav_bar ul li {display: inline-block; padding-right: 15px; }
 .nav_bar ul li a {font-size: 16px; text-decoration: none; }
+
+.social-inner {width: 65%; margin: 0px auto; text-align: right;}
+.social-inner li {display:inline-block; font-size:10px;}
+.social-inner li a {text-decoration: none;}
+.social-inner .instagram {border-left: 1px solid #666; padding-left: 4px;}
+
 
 .underline {text-decoration: underline !important; }
 .center {text-align: center; }
@@ -73,7 +79,7 @@
 .p_right{padding-right: 2.5%}
 .margin_v{ margin: 20px 0px;}
 .contact {margin-left: 25%;}
-.landing__image {width: 80%; margin:auto;}
+.landing__image {width: 65%; margin:0px auto 20px;}
 #about{min-height: 285px;}
 .form_box {text-align:center; height:40px;}
 
@@ -224,6 +230,9 @@
         .gallery {overflow-x: hidden !important; overflow-y: hidden !important; white-space: inherit !important; padding-bottom: 0px !important; }
         .gallery-item {width: 100% !important; padding-bottom: 15px !important; }
 
+        .social-inner {text-align: center;}
+
+
     }
 
     /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -231,6 +240,8 @@
         .gallery {overflow-x: hidden !important; overflow-y: hidden !important; white-space: inherit !important; padding-bottom: 0px !important; }
         .gallery-item {width: 100% !important; padding-bottom: 15px !important; }
         .contact {margin-left: 0% !important;}
+
+        .social-inner {text-align: center;}
 
     }
 
